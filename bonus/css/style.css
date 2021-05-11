@@ -1,19 +1,34 @@
-
+/* COMMONS */
+.container.cielo{
+    background-color: lightskyblue;
+}
+.container.terra .marrone{
+    background-color: brown;
+}
 .box{
     min-height: 20px;
-    background-color: #ffc0cb;
     border: 1px solid black;
     text-align: center;
     color: black;
     position: relative;
 }
-.row.uno .box, .row.due .box, .row.tre .box, .row.quattro .box, .row.cinque .box {
-    background-color: lightskyblue;
+.rotate{
+    transform: rotate(-45deg);
 }
-
+.rotate-inv{
+    transform: rotate(45deg);
+}
+.flat{
+    transform: rotate(90deg);
+}
+.box.col-xs.black{
+    background: black;
+    z-index: 100;
+}
 .box.quattro{
     background-color: red;
 }
 .row{
     margin: auto;
 }
+/* fine COMMONS  */
