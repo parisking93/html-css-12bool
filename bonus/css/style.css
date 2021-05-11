@@ -1,0 +1,19 @@
+
+.box{
+    min-height: 20px;
+    background-color: #ffc0cb;
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+    position: relative;
+}
+.row.uno .box, .row.due .box, .row.tre .box, .row.quattro .box, .row.cinque .box {
+    background-color: lightskyblue;
+}
+
+.box.quattro{
+    background-color: red;
+}
+.row{
+    margin: auto;
+}
