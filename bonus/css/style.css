@@ -8,6 +8,9 @@
 .marrone{
     background-color: brown;
 }
+.yellow{
+    background-color: yellow;
+}
 .box{
     min-height: 20px;
     text-align: center;
@@ -19,9 +22,6 @@
 }
 .rotate-inv{
     transform: rotate(45deg);
-}
-.flat{
-    transform: rotate(90deg);
 }
 .box.col-xs.black{
     background: black;
