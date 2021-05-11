@@ -2,12 +2,14 @@
 .container.cielo{
     background-color: lightskyblue;
 }
-.container.terra .marrone{
+.cielo{
+    background-color: lightskyblue;
+}
+.marrone{
     background-color: brown;
 }
 .box{
     min-height: 20px;
-    border: 1px solid black;
     text-align: center;
     color: black;
     position: relative;
