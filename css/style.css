@@ -1,33 +1,46 @@
+.container-fluid{
+    margin: 20px auto;
+}
 .box{
     min-height: 150px;
     background-color: #ffc0cb;
     border: 1px solid black;
-    padding: 15px;
+    padding: 5px;
     text-align: center;
     color: black;
-    line-height: 150px;
+    position: relative;
 }
-
+.container.quinto .row{
+    height: 100%;
+}
 .box-nested {
-    background-color:green;
-    border: 1px solid white;
-    min-height: 50px;
-}
-
-.box-nested2 {
     background-color:red;
     border: 1px solid white;
-    min-height: 50px;
+    height: 100%;
+    line-height: normal;
+    position: relative;
 }
-
-.box-large {
-    min-height: 100px;
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* MEDIA QUERY */
 
-/* @media screen and (min-width:576px) {
-    .container.primo{
-        width: 100%;
+ @media screen and (min-width:320px) {
+    .container.quinto .box-nested{
+        height: 50%;
     }
-} */
+} 
+@media screen and (min-width:992px) {
+    .container.quinto .box-nested{
+        height: 100%;
+    }
+}
+@media screen and (max-width:420px){
+    .container.quinto .box-nested{
+        font-size: 12px;
+    }
+} 
