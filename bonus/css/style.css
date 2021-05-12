@@ -18,10 +18,25 @@
     background-color: white;
 }
 .box{
-    min-height: 20px;
+    height: 20px;
     text-align: center;
     color: black;
     position: relative;
+}
+.bot-rig{
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.rig-bot{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.left-bot{
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.box.small{
+    height: 10px;
 }
 .rotate{
     transform: rotate(-45deg);
@@ -38,5 +53,6 @@
 }
 .row{
     margin: auto;
+    height: 100%;
 }
 /* fine COMMONS  */
